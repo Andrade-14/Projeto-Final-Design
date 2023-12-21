@@ -1,7 +1,7 @@
 # Projeto-Final-Design
 
-#Membros:
-** - Glauco Vasconcelos
+Membros:
+- Glauco Vasconcelos
 - Diana Chrisley
 - Jéssica Beatriz
-- Filipi Rafael**
+- Filipi Rafael
