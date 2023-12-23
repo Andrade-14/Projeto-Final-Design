@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.login-title {
+  color: #307FE2;
+  border-bottom: 3px solid #307FE2;
+  padding-bottom: 5px;
+}
+
+.button-next {
+  cursor: pointer;
+}
