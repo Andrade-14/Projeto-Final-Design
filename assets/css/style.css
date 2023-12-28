@@ -12,3 +12,11 @@ html {
 .button-next {
   cursor: pointer;
 }
+
+.nome_perfil{
+  font-size: 14px;
+}
+
+.status_perfil{
+  font-size: 12px;
+}
