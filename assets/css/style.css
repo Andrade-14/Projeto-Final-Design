@@ -1,3 +1,7 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -19,4 +23,22 @@ html {
 
 .status_perfil{
   font-size: 12px;
+}
+
+.confirmado{
+  background-color: #219653;
+}
+
+.status{
+  border-radius: 16px;
+  padding: .24rem .55rem;
+  font-size: 14px;
+}
+
+.a-pagar{
+  background-color: #BB6BD9;
+}
+
+.modalidade{
+  font-variant-numeric: lining-nums tabular-nums;
 }
