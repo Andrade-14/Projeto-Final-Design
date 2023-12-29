@@ -19,7 +19,7 @@ O desafio deste projeto visa realizar a montagem do sistema de gerenciamento da 
 - [x] Renovar Senha / Feedback (Jessica)
 
 ## Tarefas (29/12/2023)
-- [ ] Dashboard (Filipi)
+- [x] Dashboard (Filipi)
 - [ ] Perfil (Jéssica)
 - [ ] Perfil / Editar Perfil (Glauco)
 - [ ] Perfil / Alterar senha (Diana)
