@@ -22,7 +22,7 @@ O desafio deste projeto visa realizar a montagem do sistema de gerenciamento da 
 - [x] Dashboard (Filipi)
 - [ ] Perfil (Jéssica)
 - [ ] Perfil / Editar Perfil (Glauco)
-- [ ] Perfil / Alterar senha (Diana)
+- [x] Perfil / Alterar senha (Diana)
 
 ## Tarefas (04/01/2024)
 ## Tarefas (05/01/2024)
