@@ -27,10 +27,11 @@
               <img src="assets/img/icon_home.svg" alt="">
               <p class="mb-0">Dashboard</p>
             </div>
-            <div class="options p-2 d-flex gap-2 align-items-center pb-4 border-bottom">
-              <img src="assets/img/icon_exit.svg" alt="">
-             <img src="assets/img/menu-item.png" alt="">
+            <div class="options p-2 d-flex gap-2 align-items-center pb-2 rounded bg-body-secondary">
+             <img src="assets/img/estrela.svg" alt=""> 
+             <p class="mb-0 text-info">Modalidades</p>
             </div>
+            <hr class="m-0">
             <div class="options p-2 d-flex gap-2 align-items-center">
               <img src="assets/img/icon_exit.svg" alt="">
               <p class="mb-0 text-danger">Sair</p>
@@ -48,31 +49,46 @@
       <div class="right col-md-auto w-75">
         <div class="exibicao d-flex flex-column gap-3 ms-5 ps-5 mt-5">
           <div class="">
-           <img src="assets/img/Modalidades.png" alt="">
-            <img src="" alt=""> #por aqui a ft da seta
-            <h5 class="fw-bold">Cadastro</h5>
+           <div class="d-flex align-items-center gap-2 mb-4">
+             <p class="mb-0 text-info">Modalidades</p>
+             <img src="assets/img/🦆 icon _chevron left_.png" alt="">
+             <p class="mb-0"> Cadastrar</p>
+           </div>
+           <h5 class="fw-bold"> Cadastramento de Modalidade</h5>
           </div>
           <span class="border-top w-100"></span>
-          <form>
-            <fieldset disabled>
-              <legend>Digite o nome da modalidade</legend>
-            </fieldset>
-            <div class="mb-3">
-              <label for="disabledTextInput" class="form-label">Nome</label>
-              <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
-                 Individual
+          <form class="d-flex flex-column w-50">
+            <div class="border p-4 mb-4 rounded">
+              <div class="mb-3 w-75">
+                <label for="exampleInputEmail1" class="form-label fw-bold">Nome</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o nome da modalidade" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label fw-bold">Tipo</label>
+              </div>  
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Coletivo
                 </label>
               </div>
-              <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label mb-2" for="flexRadioDefault2">
+                Individual
+                </label>
+              </div>
+              <div class="mb-3 d-flex flex-column w-50">
+                <label for="exampleInputEmail1" class="form-label fw-bold">Ícone da modalidade</label>
+                <select class="form-select form-select-sm" aria-label="Small select example">
+                  <option >Selecione</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
             </div>
-            <label for="disabledTextInput" class="form-label">Ícone da modalidade</label>
-            <select class="form-select" aria-label="Default select example">
-                <option selected>Selecione</option>
-            </select>
+            <button type="button" class="btn btn-primary align-self-end" disabled>Cadastrar</button>
           </form>
 
 

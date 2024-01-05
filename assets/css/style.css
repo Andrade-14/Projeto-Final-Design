@@ -12,3 +12,11 @@ html {
 .button-next {
   cursor: pointer;
 }
+
+img[src="assets/img/🦆 icon _chevron left_.png"]{
+    height: 8px;
+}
+
+.nome_perfil{
+  width: max-content;
+}
