@@ -49,3 +49,38 @@ img[src="assets/img/🦆 icon _chevron left_.png"]{
 .modalidade{
   font-variant-numeric: lining-nums tabular-nums;
 }
+
+.card-info{
+  height: max-content;
+  width: 100%;
+  max-width: 200px;
+}
+
+.card-info img{
+    width: 100px;
+}
+
+.confirmad,.aguardando,.expirado{
+  background-color: #E7FFF1;
+  color: #219653;
+  height: max-content;
+  padding: 2px 6px;
+  border-radius: 100px;
+}
+
+.expirado{
+  color: white;
+  background-color: #767676;
+}
+
+.aguardando{
+  background-color: #FFF8F2;
+  color:#E59146;
+}
+
+.tipo{
+  background: #E9F8FF;
+  color: #0095D9;
+  padding: 2px 6px;
+  border-radius: 100px;
+}
