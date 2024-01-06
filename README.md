@@ -8,7 +8,7 @@ O desafio deste projeto visa realizar a montagem do sistema de gerenciamento da 
 - Filipi Rafael
 
 ## Tarefas (21/12/2023)
-- [x] Montagem de página de login (Todos)
+- [x] Montagem de página de login (Glauco)
 - [x] Criação do repositório (Glauco)
 - [x] Envio de convites aos colaboradores (Glauco)
 
