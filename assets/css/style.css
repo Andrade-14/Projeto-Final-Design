@@ -77,3 +77,50 @@ html {
   padding: 2px 6px;
   border-radius: 100px;
 }
+
+.nome-modalidade{
+  width: 100%;
+  max-width: 204px;
+}
+
+.tipo-modalidade{
+  margin-right: 93px;
+  height: max-content;
+}
+
+.N-inscritos{
+  width: 100%;
+  max-width: 275px;
+}
+
+.item-table,.table-header,.filter{
+  padding: 12px 30px;
+}
+
+.title-modalidade{
+  width: 100%;
+  max-width: 260px;
+}
+
+.title-tipo{
+  width: 100%;
+  max-width: 180px;
+}
+
+.title-inscritos{
+  width: 100%;
+  max-width: 200px;
+}
+
+.search{
+  width: 100%;
+  max-width: 370px;
+}
+
+.search input{
+  outline: 0;
+}
+
+.modalidade{
+  font-size: 18px;
+}

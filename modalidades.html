@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="pt-br" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Detalhes</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body class="h-100">
+        <div class="container-fluid h-100">
+            <div class="row h-100 gap-5">
+                <div class="left col-2 me-5 p-4 border-end h-100 d-flex flex-column justify-content-between">
+                    <div class="head-menu px-3 pt-3 gap-5 d-flex flex-column">
+                        <div class="icons d-flex justify-content-between">
+                            <img src="assets/img/Group.svg" alt="">
+                            <img src="assets/img/barras-menu.svg" alt="">
+                        </div>
+                        <div class="container-opitions gap-4 d-flex flex-column">
+                            <div class="options p-2 d-flex gap-2 align-items-center">
+                                <img src="assets/img/icon_home.svg" alt="">
+                                <p class="mb-0">Dashboard</p>
+                            </div>
+                            <div class="options p-2 d-flex gap-2 align-items-center pb-2 rounded bg-body-secondary">
+                                <img src="assets/img/estrela.svg" alt=""> 
+                                <p class="mb-0 text-info">Modalidades</p>
+                            </div>
+                            <div class="options p-2 d-flex gap-2 align-items-center">
+                                <img src="assets/img/icon_exit.svg" alt="">
+                                <p class="mb-0 text-danger">Sair</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="perfil px-3 pb-3 d-flex gap-2">
+                        <img src="assets/img/icon_user_circle.svg" alt="">
+                        <div class="text">
+                            <p class="mb-0 fw-bold nome_perfil">Jr Programador</p>
+                            <p class="mb-0 status_perfil">Atleta</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="right col-8 ms-5 mt-5">
+                    <div class="header mb-3">
+                        <div class="breadcrumb d-flex align-items-center gap-2">
+                            <p class="mb-0 text-info">Modalidades</p>
+                            <img src="assets/img/icon _chevron left_.svg" alt="">
+                            <p class="mb-0">Detalhamento da modalidade</p>
+                        </div>
+                        <div class="down border-bottom mt-2 d-flex justify-content-between align-items-center pb-2">
+                            <p class="modalidade fw-semibold mb-0">Modalidade</p>
+                            <div class="buttons-title">
+                                <button type="button" class="btn me-4 btn-outline-primary"><img src="assets/img/icon_word.svg" alt=""> Gerar Relatórios</button>
+                                <button type="button" class="btn btn-primary">Cadastrar Modalidade</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter mb-2 d-flex align-items-center gap-2 bg-body-secondary">
+                        <div class="search rounded-3 border p-2 rounded bg-white d-flex align-items-center">
+                            <img src="assets/img/search.svg" alt="" class="p-2">
+                            <input type="text" class="w-100 bg-whiteborder border-0" placeholder="Pesquise por uma modalidade">
+                        </div>
+                        <!-- Example single danger button -->
+                        <div class="btn-group bg-white">
+                            <button type="button" class="btn btn btn-outline-secondary dropdown-toggle text-black" data-bs-toggle="dropdown" aria-expanded="false">
+                                Filtrar por categoria
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Categoria 3</a></li>
+                                <li><a class="dropdown-item" href="#">Categoria 2</a></li>
+                                <li><a class="dropdown-item" href="#">Caterofia 1</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group bg-white">
+                            <button type="button" class="btn btn btn-outline-secondary dropdown-toggle text-black" data-bs-toggle="dropdown" aria-expanded="false">
+                            Curso
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Informática Para Internet</a></li>
+                                <li><a class="dropdown-item" href="#">Comark</a></li>
+                                <li><a class="dropdown-item" href="#">Eletrônica</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div class="table-header d-flex gap-4 border">
+                            <p class="mb-0 title-modalidade">Modalidade</p>
+                            <p class="mb-0 title-tipo">Tipo</p>
+                            <p class="mb-0 title-inscritos">Inscritos</p>
+                        </div>
+                        <div class="item-table align-items-center border d-flex gap-4">
+                            <img src="assets/img/sport_corrida.svg" alt="">
+                            <div class="nome-modalidade p-2">
+                                Corrida
+                            </div>
+                            <div class="tipo tipo-modalidade">
+                                Individual
+                            </div>
+                            <div class="N-inscritos p-2">
+                                10 Participantes
+                            </div>
+                            <img src="assets/img/icon_word.svg" alt="">
+                        </div>
+                        <div class="item-table align-items-center border d-flex gap-4">
+                            <img src="assets/img/sport_corrida.svg" alt="">
+                            <div class="nome-modalidade p-2">
+                                Beach tennis
+                            </div>
+                            <div class="tipo tipo-modalidade">
+                                Individual
+                            </div>
+                            <div class="N-inscritos p-2">
+                                10 Participantes
+                            </div>
+                            <img src="assets/img/icon_word.svg" alt="">
+                        </div>
+                        <div class="item-table align-items-center border d-flex gap-4">
+                            <img src="assets/img/sport_corrida.svg" alt="">
+                            <div class="nome-modalidade p-2">
+                                Futebol 11
+                            </div>
+                            <div class="tipo tipo-modalidade">
+                                Individual
+                            </div>
+                            <div class="N-inscritos p-2">
+                                10 Participantes
+                            </div>
+                            <img src="assets/img/icon_word.svg" alt="">
+                        </div>
+                        <div class="item-table align-items-center border d-flex gap-4">
+                            <img src="assets/img/sport_corrida.svg" alt="">
+                            <div class="nome-modalidade p-2">
+                                Futsal
+                            </div>
+                            <div class="tipo tipo-modalidade">
+                                Individual
+                            </div>
+                            <div class="N-inscritos p-2">
+                                10 Participantes
+                            </div>
+                            <img src="assets/img/icon_word.svg" alt="">
+                        </div>
+                        <div class="item-table align-items-center border d-flex gap-4">
+                            <img src="assets/img/sport_corrida.svg" alt="">
+                            <div class="nome-modalidade p-2">
+                                jiu-jitsu
+                            </div>
+                            <div class="tipo tipo-modalidade">
+                                Individual
+                            </div>
+                            <div class="N-inscritos p-2">
+                                10 Participantes
+                            </div>
+                            <img src="assets/img/icon_word.svg" alt="">
+                        </div>
+                        <div class="item-table align-items-center border d-flex gap-4">
+                            <img src="assets/img/sport_corrida.svg" alt="">
+                            <div class="nome-modalidade p-2">
+                                Natação
+                            </div>
+                            <div class="tipo tipo-modalidade">
+                                Individual
+                            </div>
+                            <div class="N-inscritos p-2">
+                                10 Participantes
+                            </div>
+                            <img src="assets/img/icon_word.svg" alt="">
+                        </div>
+                        <div class="item-table align-items-center border d-flex gap-4">
+                            <img src="assets/img/sport_corrida.svg" alt="">
+                            <div class="nome-modalidade p-2">
+                                Tênis de Mesa
+                            </div>
+                            <div class="tipo tipo-modalidade">
+                                Individual
+                            </div>
+                            <div class="N-inscritos p-2">
+                                10 Participantes
+                            </div>
+                            <img src="assets/img/icon_word.svg" alt="">
+                        </div>
+                        <div class="item-table align-items-center border d-flex gap-4">
+                            <img src="assets/img/sport_corrida.svg" alt="">
+                            <div class="nome-modalidade p-2">
+                                Vôlei de quadra
+                            </div>
+                            <div class="tipo tipo-modalidade">
+                                Individual
+                            </div>
+                            <div class="N-inscritos p-2">
+                                10 Participantes
+                            </div>
+                            <img src="assets/img/icon_word.svg" alt="">
+                        </div>
+                        <div class="item-table align-items-center border d-flex gap-4">
+                            <img src="assets/img/sport_corrida.svg" alt="">
+                            <div class="nome-modalidade p-2">
+                                Xadrez
+                            </div>
+                            <div class="tipo tipo-modalidade">
+                                Individual
+                            </div>
+                            <div class="N-inscritos p-2">
+                                10 Participantes
+                            </div>
+                            <img src="assets/img/icon_word.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
