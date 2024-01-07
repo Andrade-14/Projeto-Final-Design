@@ -1,3 +1,4 @@
+
 *{
   font-family: 'Open Sans', sans-serif;
 }
@@ -5,6 +6,10 @@
 html {
   height: 100%;
   width: 100%;
+}
+
+.a-pagar{
+  background-color: #BB6BD9;
 }
 
 .login-title {
@@ -17,8 +22,14 @@ html {
   cursor: pointer;
 }
 
+
+img[src="assets/img/🦆 icon _chevron left_.png"]{
+    height: 8px;
+}
+
 .nome_perfil{
   font-size: 14px;
+  width: max-content;
 }
 
 .status_perfil{
@@ -33,10 +44,6 @@ html {
   border-radius: 16px;
   padding: .24rem .55rem;
   font-size: 14px;
-}
-
-.a-pagar{
-  background-color: #BB6BD9;
 }
 
 .modalidade{
